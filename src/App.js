@@ -35,47 +35,27 @@ class App extends React.Component{
             {/* Subscribe Section Start*/}
             <div className=" subscribe-box grapping">
             <Container>
-                <Row className="align-items-center">
-                <Col xs="12" md="12" lg="4" className="align-items-center">
+                <Row className="align-items-right">
+                <Col xs="12" md="12" lg="4" >
                     <Tdsinputgroup />
                 </Col>
-                <Col xs="12" md="12" lg="8" className="text-left"><h4 className="text-white"> احصل على العدد الأول من المجلة الآن</h4></Col>
+                <Col xs="12" md="12" lg="8" className="text-right"><h4 className="text-white"> احصل على العدد الأول من المجلة الآن</h4></Col>
                 
                 </Row>
             </Container>
             </div>
             {/* Welcome Section Start */}
-            <div className=" welcome-box grapping">
+            <div className=" welcome-box grapping" style={{'max-height':'300px'}}>
             <Container>
-                <div className="title-box">
+                <div className="title-box" >
                 <h2>مرحبا بكم في <b>عين أبوظبي</b></h2>
                 <p>نقدم لكم كل ماهو متعلق بالأماكن السياحية في إمارة أبوظبي</p>
                 <p>لنكون لكم العين التي ترون من خلالها جمال أبوظبي</p>
                 </div>
-                <Row>
-                <Col xs="12" sm="12" md="4">
-                    <div className="white-bg wel-box coman-box">
-                    <Icofont icon="icofont-drag2" />
-                    <h4>Creative Design</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="12" md="4">
-                    <div className="white-bg wel-box coman-box">
-                    <Icofont icon="icofont-code" />
-                    <h4>Friendly Codes</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="12" md="4">
-                    <div className="white-bg wel-box coman-box">
-                    <Icofont icon="icofont-live-support" />
-                    <h4>Fast Support</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                    </div>
-                </Col>
-                </Row>
             </Container>
+            </div>
+              {/* line seperator*/}
+              <div className="workwithus">
             </div>
             {/* About us Section Start */}
             <div className="section about-box grapping" id="about">
@@ -306,16 +286,7 @@ class App extends React.Component{
                 <Tdsfeedbackslider></Tdsfeedbackslider>
             </Container>
             </div>
-            {/* Our  Pricing Section Start*/}
-            <div className="section ourlatest-pricing grapping" id="price">
-            <Container>
-                <div className="title-box">
-                <h2>Our Latest  <b>Pricing</b></h2>
-                <p>Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                </div>
-                <Tdspricingtable></Tdspricingtable>
-            </Container>
-            </div>
+            
             {/*Our Latest News  Section Start*/}
             <div className="section latestnews grapping" id="blog">
             <Container>
@@ -357,115 +328,57 @@ class App extends React.Component{
                 </Row>
             </Container>
             </div>
-            {/* Work With Us  Section Start*/}
-            <div className="workwithus grapping">
-            <Container>
-                <div className="title-box mb-0">
-                <h2 className="text-white"><b>Want to work with us?</b></h2>
-                <p className="text-white mb-4">Lets talk about project</p>
-                <Button>Get Started</Button>
-                </div>
-    
-            </Container>
+            {/* line seperator*/}
+            <div className="workwithus">
             </div>
             {/* Contact Us Section Start  */}
-            <div className="section contactus grapping" id="contact">
-            <Container>
+            <div className="section contactus grapping" id="contact" >
+            <Container >
                 <div className="title-box">
-                <h2>Contact   <b>Us</b></h2>
-                <p>Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                <h2>   <b>للتواصل معنا</b></h2>
+                <p>مشروع التخرج 2020</p>
                 </div>
                 <Row>
                 <Col xs="12" md="12" lg="4">
                     <Media className="address-box">
-                    <Media left href="#" >
-                        <Icofont icon="icofont-location-pin" />
+                    <Media left  >
+                        <Icofont icon="icofont-user-male" />
                     </Media>
                     <Media body>
                         <Media heading>
-                        Address
+                        الإشراف
                         </Media>
-                       <p> Exercisplan 4, 111 49
-    
-    Stockholm, Sweden</p>
+                       <p>د. ابن عوف حسن</p>
                     </Media>
                     </Media>
                 </Col>
-                <Col xs="12" md="6" lg="4">
-                    <Media className="address-box">
-                    <Media left href="#" >
-                        <Icofont icon="icofont-mail" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Email
-                        </Media>
-                        <a href="mailto:info@Soxolo.com"> Info@soxolo.com</a> <br />
-                        <a href="mailto:support@Soxolo.com">support@soxolo.com</a>
-    
-    
-    
-                    </Media>
-                    </Media>
-                </Col>
-                <Col xs="12" md="6" lg="4">
-                    <Media className="address-box">
-                    <Media left href="#" >
-                        <Icofont icon="icofont-phone" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Phone
-    
-                        </Media>
-                        <a href="tel:+44 8888 888"> +44 8888 888</a> <br />
-                        <a href="tel:+44 5555 458">+44 5555 458</a>
-                    </Media>
-                    </Media>
-                </Col>
-                </Row>
-                <Row className="mt-3">
                 <Col xs="12" md="12" lg="4">
-                    <h4>Get in Touch</h4>
-                    <hr />
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete. account of the system, and expound the actual teachings of the great explorer praising  I will give you a complete </p>
-                    <ListGroup className="social-icon">
-                    <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
-                    <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
-                    <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-instagram" /></ListGroupItem>
-                    <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-linkedin" /></ListGroupItem>
-                    <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-youtube-play" /></ListGroupItem>
-                    </ListGroup>
+                    <Media className="address-box">
+                    <Media left  >
+                        <Icofont icon="icofont-user-female" />
+                    </Media>
+                    <Media body>
+                        <Media heading>
+                        K-916660838
+                        </Media>
+                       <p>أميمة الطالب بوحمادي </p>
+                    </Media>
+                    </Media>
                 </Col>
-    
-                <Col xs="12" md="12" lg="8">
-                    <Form className="mt-4">
-                    <Row>
-                        <Col md={6}>
-                        <FormGroup>
-    
-                            <Input type="text" name="name" id="examplename" placeholder="Name" />
-                        </FormGroup>
-                        </Col>
-                        <Col md={6}>
-                        <FormGroup>
-    
-                            <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
-                        </FormGroup>
-                        </Col>
-                    </Row>
-                    <FormGroup>
-    
-                        <Input type="textarea" name="address" id="exampleAddress" placeholder="Your message" />
-                    </FormGroup>
-    
-    
-    
-                    <Button color="primary">Send Message</Button>
-                    </Form>
+                <Col xs="12" md="12" lg="4">
+                    <Media className="address-box">
+                    <Media left  >
+                        <Icofont icon="icofont-user-female" />
+                    </Media>
+                    <Media body>
+                        <Media heading>
+                        K-91320243
+                        </Media>
+                       <p> نور غسان </p>
+                    </Media>
+                    </Media>
                 </Col>
                 </Row>
-    
             </Container>
             </div>
             {/* Footer  Section Start */}

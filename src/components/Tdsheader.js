@@ -100,14 +100,10 @@ class Tdsheader extends React.Component {
                                 </NavItem>
 
                                 <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('price')} className={(this.state.activeMenu == 'price') ? "active" : ""}>Price</NavLink>
-                                </NavItem>
-
-                                <NavItem>
                                     <NavLink onClick={() => this.scrollToTop('blog')} className={(this.state.activeMenu == 'blog') ? "active" : ""}>Blog</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('contact')} className={(this.state.activeMenu == 'contact') ? "active" : ""}>Contact</NavLink>
+                                    <NavLink onClick={() => this.scrollToTop('contact')} className={(this.state.activeMenu == 'contact') ? "active" : ""}>التواصل</NavLink>
                                 </NavItem>
 
                             </Nav>
