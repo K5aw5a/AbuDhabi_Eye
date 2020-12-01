@@ -27,12 +27,21 @@
   }
   /* end placeholder */
   .news-box  .icofont-email{
-    font-size: 35px;
-    color: var(--orange);;
+    font-size: 50px;
+    color: var(--yellow);;
       line-height: 30px;
+    height: 30px;
   }
   .input-group-append .btn{
     height: 50px;
     padding: 10px 21px;
+    
+  }
+  .btn-radius{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
   }
   

@@ -36,11 +36,11 @@ class App extends React.Component{
             <div className=" subscribe-box grapping">
             <Container>
                 <Row className="align-items-center">
-                <Col xs="12" md="12" lg="8" className="text-left"><h4 className="text-white"> Join the Soxolo! Sign up for the latest updates and news.</h4></Col>
-                <Col xs="12" md="12" lg="4">
+                <Col xs="12" md="12" lg="4" className="align-items-center">
                     <Tdsinputgroup />
-    
                 </Col>
+                <Col xs="12" md="12" lg="8" className="text-left"><h4 className="text-white"> احصل على العدد الأول من المجلة الآن</h4></Col>
+                
                 </Row>
             </Container>
             </div>
@@ -50,6 +50,7 @@ class App extends React.Component{
                 <div className="title-box">
                 <h2>مرحبا بكم في <b>عين أبوظبي</b></h2>
                 <p>نقدم لكم كل ماهو متعلق بالأماكن السياحية في إمارة أبوظبي</p>
+                <p>لنكون لكم العين التي ترون من خلالها جمال أبوظبي</p>
                 </div>
                 <Row>
                 <Col xs="12" sm="12" md="4">

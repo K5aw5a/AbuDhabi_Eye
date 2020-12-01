@@ -10,10 +10,9 @@ class Tdsinputgroup extends React.Component {
     render() {
         return (
             <InputGroup className="news-box">
-                <Input className="sub-control" placeholder="name@gmail.com" />
-                <InputGroupAddon addonType="append">
-                    <Button color="secondary"> <i class="icofont-email"></i></Button>
-                </InputGroupAddon>
+                
+                    <Button color={"secondary"}> <i class="icofont-download"></i></Button>
+                
             </InputGroup>
 
         );
