@@ -49,7 +49,7 @@ class App extends React.Component{
             <Container>
                 <div className="title-box">
                 <h2>مرحبا بكم في <b>عين أبوظبي</b></h2>
-                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                <p>نقدم لكم كل ماهو متعلق بالأماكن السياحية في إمارة أبوظبي</p>
                 </div>
                 <Row>
                 <Col xs="12" sm="12" md="4">
