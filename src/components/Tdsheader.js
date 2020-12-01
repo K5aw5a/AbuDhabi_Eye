@@ -1,7 +1,7 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Container, Nav, NavItem, NavLink } from 'reactstrap';
-import logo from '../logowhite.svg';
-import logob from '../logoblack.svg';
+import logo from '../images/LOGO-header.png';
+import logob from '../images/LOGO-header.png';
 import './Tdsheader.css';
 
 class Tdsheader extends React.Component {
@@ -84,7 +84,7 @@ class Tdsheader extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar className="menu-ul">
                             <Nav className="ml-auto" navbar >
                                 <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('home')} className={(this.state.activeMenu == 'home') ? "active" : ""}>Home</NavLink>
+                                    <NavLink onClick={() => this.scrollToTop('home')} className={(this.state.activeMenu == 'home') ? "active" : ""}>الرئيسية</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink onClick={() => this.scrollToTop('about')} className={(this.state.activeMenu == 'about') ? "active" : ""}>About</NavLink>

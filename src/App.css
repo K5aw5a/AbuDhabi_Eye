@@ -30,7 +30,7 @@ body {
   font-size: 16px;
   color: var(--light);
   background: var(--white);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto','Cairo', sans-serif;
   line-height: 1.321em;
   letter-spacing: 0.009em;
   -webkit-text-size-adjust: none;

@@ -48,7 +48,7 @@ class App extends React.Component{
             <div className=" welcome-box grapping">
             <Container>
                 <div className="title-box">
-                <h2>Welcome to <b>Soxolo</b></h2>
+                <h2>مرحبا بكم في <b>عين أبوظبي</b></h2>
                 <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                 </div>
                 <Row>

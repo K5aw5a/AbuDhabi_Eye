@@ -34,7 +34,7 @@ class Tdsbanner extends React.Component {
                     loop={true}
                     margin={0}
                     autoplay={true}
-                    autoplayTimeout={3000}
+                    autoplayTimeout={8000}
                     smartSpeed={500}
                     nav={true}
                     items="1"
@@ -42,34 +42,10 @@ class Tdsbanner extends React.Component {
                     dots={false} >
                     <div className="item">
                         <div className="banner-one banner-img">
-                            <Container>
-                                <div className="banner-text text-center">
-                                    <h1 >THE BEST  <span>Digital Marketing</span>   & Branding</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                                    <div className="d-flex justify-content-center">
-                                        <Button color="primary mr-3">Get Started</Button>
-                                        <Tdsvideomodal></Tdsvideomodal>
-                                    </div>
-
-                                </div>
-                            </Container>
+                            
                         </div>
                     </div>
-                    <div className="item">
-                        <div className="banner-two banner-img">
-                            <Container>
-                                <div className="banner-text text-center">
-                                    <h1 >THE BEST  <span>Digital Marketing</span>   & Branding</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                                    <div className="d-flex justify-content-center">
-                                        <Button color="primary mr-3">Get Started</Button>
-                                        <Tdsvideomodal></Tdsvideomodal>
-                                    </div>
-                                </div>
-                            </Container>
-                        </div>
-
-                    </div>
+                    
                 </OwlCarousel>
             </section>
         );
