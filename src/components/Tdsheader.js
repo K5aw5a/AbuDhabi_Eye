@@ -87,20 +87,10 @@ class Tdsheader extends React.Component {
                                     <NavLink onClick={() => this.scrollToTop('home')} className={(this.state.activeMenu == 'home') ? "active" : ""}>الرئيسية</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('about')} className={(this.state.activeMenu == 'about') ? "active" : ""}>About</NavLink>
+                                    <NavLink onClick={() => this.scrollToTop('team')} className={(this.state.activeMenu == 'team') ? "active" : ""}>المعرض</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('services')} className={(this.state.activeMenu == 'services') ? "active" : ""}>Services</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('team')} className={(this.state.activeMenu == 'team') ? "active" : ""}>Team</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('portfolio')} className={(this.state.activeMenu == 'portfolio') ? "active" : ""}>Portfolio</NavLink>
-                                </NavItem>
-
-                                <NavItem>
-                                    <NavLink onClick={() => this.scrollToTop('blog')} className={(this.state.activeMenu == 'blog') ? "active" : ""}>Blog</NavLink>
+                                    <NavLink onClick={() => this.scrollToTop('blog')} className={(this.state.activeMenu == 'blog') ? "active" : ""}>الأخبار</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink onClick={() => this.scrollToTop('contact')} className={(this.state.activeMenu == 'contact') ? "active" : ""}>التواصل</NavLink>

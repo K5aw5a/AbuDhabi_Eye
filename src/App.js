@@ -20,6 +20,12 @@ import Tdspricingtable from './components/Tdspricingtable';
 import Tdsfooter from './components/Tdsfooter';
 import './App.css';
 import './responsive.css';
+import OwlCarousel from 'react-owl-carousel';
+import Tdsvideojbail from './components/Tdsvideojbail';
+import Tdsvideowarner from './components/Tdsvideowarner';
+import Tdsvideoclymb from './components/Tdsvideoclymb';
+import Tdsvideolouver from './components/Tdsvideolouver';
+import Tdsvideoferrari from './components/Tdsvideoferrari';
 class App extends React.Component{
 
     render() {
@@ -53,246 +59,157 @@ class App extends React.Component{
                 <p>لنكون لكم العين التي ترون من خلالها جمال أبوظبي</p>
                 </div>
             </Container>
+            </div>           
+               {/* line seperator*/}
+               <div className="workwithus">
             </div>
-              {/* line seperator*/}
-              <div className="workwithus">
-            </div>
-            {/* About us Section Start */}
-            <div className="section about-box grapping" id="about">
-            <Container>
-                <Row>
-                <Col xs="12" sm="12" md="12" lg="6">
-                    <div className="about-img">
-    
-                    <img src={require("./images/aboutus.jpg")} alt="" className="img-fluid" />
-                    </div>
-                </Col>
-                <Col xs="12" sm="12" md="12" lg="6">
-                    <Tdsaboutslider />
-    
-                </Col>
-                </Row>
-            </Container>
-            </div>
-            {/* Our Services Section Start */}
-            <div className="section ourservice grapping" id="services">
-            <Container>
-                <div className="title-box">
-                <h2>Our  <b>Services</b></h2>
-                <p>There are many variations of passages of available.</p>
-                </div>
-                <Row>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="icofont-crown" />
-                    <h4>Branding</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="icofont-pen-alt-3" />
-                    <h4>UX/UI Design</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="icofont-camera-alt" />
-                    <h4>Photography</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="icofont-chart-growth" />
-                    <h4>Marketing</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="icofont-laptop-alt" />
-                    <h4>Web Design</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="icofont-tick-boxed" />
-                    <h4>Development</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                <Col xs="15" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="paper" />
-                    <h4>Content Writer</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="white-bg coman-box ourservice-box">
-                    <Icofont icon="search-job" />
-                    <h4>SEO & SMM</h4>
-                    <p>There are many variations of passages of available.</p>
-                    </div>
-                </Col>
-                </Row>
-            </Container>
-            </div>
+            
             {/* Team Section Start */}
+            
             <div className="section expert-team grapping" id="team">
             <Container>
                 <div className="title-box">
-                <h2>Expert <b>Team</b></h2>
-                <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <h2> أشهر الأماكن السياحية في أبوظبي</h2>
                 </div>
-                <Row>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="text-center coman-box team-box">
-                    <div className="team-img">
-                        <img src={require("./images/team-img1.jpg")} alt="" className="img-fluid rounded-circle" />
-                    </div>
-                    <h4 className="text-white">Lucy Smith</h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <ListGroup className="social-icon-team">
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-instagram" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-linkedin" /></ListGroupItem>
-    
-                    </ListGroup>
-                    </div>
-    
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="text-center coman-box team-box">
-                    <div className="team-img">
-                        <img src={require("./images/team-img2.jpg")} alt="" className="img-fluid rounded-circle" />
-                    </div>
-                    <h4 className="text-white">Alex Maxwel</h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <ListGroup className="social-icon-team">
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-instagram" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-linkedin" /></ListGroupItem>
-    
-                    </ListGroup>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="text-center coman-box team-box">
-                    <div className="team-img">
-                        <img src={require("./images/team-img3.jpg")} alt="" className="img-fluid rounded-circle" />
-                    </div>
-                    <h4 className="text-white">Steven Doe</h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <ListGroup className="social-icon-team">
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-instagram" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-linkedin" /></ListGroupItem>
-    
-                    </ListGroup>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="text-center coman-box team-box">
-                    <div className="team-img">
-                        <img src={require("./images/team-img4.jpg")} alt="" className="img-fluid rounded-circle" />
-                    </div>
-                    <h4 className="text-white"> Maxwel Doe </h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <ListGroup className="social-icon-team">
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-instagram" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-linkedin" /></ListGroupItem>
-    
-                    </ListGroup>
-                    </div>
-                </Col>
-                </Row>
-            </Container>
-            </div>
-            {/* Portfolio Section Start*/}
-            <div className="section ourportfolio grapping" id="portfolio">
-            <Container>
-                <div className="title-box">
-                <h2>Our   <b>Portfolio</b></h2>
-                <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                </div>
-                <Tdslightbox></Tdslightbox>
-            </Container>
-            </div>
-            {/* Marketing Section Start*/}
-            <div className="marketing-section grapping" >
-            <Container>
-    
-                <Row className="align-items-center">
-                <Col xs="12" sm="12" md="12" lg="6">
-                    <div className="marketing-img">
-                    <img src={require("./images/digitalmarketing.jpg")} alt="" className="img-fluid" />
-                    </div>
-                </Col>
-                <Col xs="12" sm="12" md="12" lg="6">
-                    <Media className="markrt-box">
-                    <Media left href="#">
-                        <Icofont icon="icofont-web" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Fully Responsive
-                        </Media>
-                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
-                    </Media>
-                    </Media>
-                    <Media className="markrt-box">
-                    <Media left href="#">
-                        <Icofont icon="icofont-chart-pie" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Digital Marketing
-                        </Media>
-                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
-                    </Media>
-                    </Media>
-                    <Media className="markrt-box">
-                    <Media left href="#" >
-                        <Icofont icon="icofont-brand-designfloat" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Clean & Unique Design
-                        </Media>
-                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
-                    </Media>
-                    </Media>
-    
-                </Col>
-                </Row>
-            </Container>
-            </div>
-            {/* Expert Feadback Section Start */}
-            <div className="expertfeesback grapping" >
-            <Container>
-                <div className="title-box">
-                <h2>Expert <b>Feadback</b></h2>
-                <p>Extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain</p>
-                </div>
-                <Tdsfeedbackslider></Tdsfeedbackslider>
-            </Container>
-            </div>
+                
+                    <Row>
+                    <Col xs="12" sm="6" md="6" lg="3">
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/jbail204.JPG")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white">جزيرة الجبيل</h4>
+                        <p className="text-white">حديقة القرم بالجبيل أول وجهة تعليمية وطبيعة وترفيهية قائمة بذاتها من نوعها في إمارة أبوظبي</p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" > <Tdsvideojbail></Tdsvideojbail> </ListGroupItem>
+                        </ListGroup>
+                        </div>
+        
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3">
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/warner204.jpg")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white">عالم وارنر براذرز</h4>
+                        <p className="text-white">مدينة ملاهي داخلية في أبو ظبي ،تحتوي الحديقة على 29 لعبة ومطاعم ومعالم سياحية ومتاجر وعروض</p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" > <Tdsvideowarner></Tdsvideowarner> </ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3">
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/clymb204.jpg")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white">كلايم أبوظبي</h4>
+                        <p className="text-white">وجهة رياضية وترفيهية في جزيرة ياس ومركز المغامرات الذي سيحدث ثورة في القفز المظلي الداخلي والتسلق </p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" > <Tdsvideoclymb></Tdsvideoclymb> </ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3">
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/louver204.jpeg")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white">متحف اللوفر أبوظبي</h4>
+                        <p className="text-white">متحف الحضارة والفنون يقع في المنطقة الثقافية في السعديات ،ويعرض الأعمال الفنية من جميع بقاع العالم</p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" > <Tdsvideolouver></Tdsvideolouver></ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3" style={{"marginTop":"30px"}}>
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/ferrari204.jpg")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white"> عالم فيراري </h4>
+                        <p className="text-white">أول مدينة ترفيهية تحمل علامة فيراري ولها الرقم القياسي لأكبر هيكل فضاء تم بناؤه على الإطلاق</p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" >  <Tdsvideoferrari></Tdsvideoferrari></ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3" style={{"marginTop":"30px"}}>
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/yas204.jpg")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white">ياس ووتر وورلد</h4>
+                        <p className="text-white">حديقة مائية على الطراز الإماراتي تقع في جزيرة ياس في أبو ظبي وهي موطن لأكثر من 40 لعبة ومنزلقة  </p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" >  <Tdsvideoferrari></Tdsvideoferrari></ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3" style={{"marginTop":"30px"}}>
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/heday204.JPG")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white">جزيرة الحديريات</h4>
+                        <p className="text-white"> تعد الجزيرة جزءًا من تطوير المدينة الجديد الذي سيشمل مناطق جذب تجارية ومساكن للإماراتيين</p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" >  <Tdsvideoferrari></Tdsvideoferrari></ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3" style={{"marginTop":"30px"}}>
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/watan204.JPG")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white"> قصر الوطن </h4>
+                        <p className="text-white">يعبر قصر الوطن عن الأصالة وعبق التراث لدولة الإمارات، ويدعوا للتعرف على ثقافة دولة الإمارات وتراثها عبر التاريخ</p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" >  <Tdsvideoferrari></Tdsvideoferrari></ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3" style={{"marginTop":"30px"}}>
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/palace204.jpg")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white">قصر الإمارات</h4>
+                        <p className="text-white">هو فندق فاخر من فئة الخمس نجوم في أبو ظبي و يتكون قصر الإمارات من 394 وحدة سكنية </p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" >  <Tdsvideoferrari></Tdsvideoferrari></ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6" md="6" lg="3" style={{"marginTop":"30px"}}>
+                        <div className="text-center coman-box team-box">
+                        <div className="team-img">
+                            <img src={require("./images/bateen204.JPG")} alt="" className="img-fluid rounded-circle" />
+                        </div>
+                        <h4 className="text-white"> مرسى البطين </h4>
+                        <p className="text-white">يقع في واحدة من أقدم المناطق على الجانب الغربي من جزيرة أبوظبي ، مقابل قناة المصفح</p>
+                        <ListGroup className="social-icon-team">
+                            <ListGroupItem tag="a" >  <Tdsvideoferrari></Tdsvideoferrari></ListGroupItem>        
+                        </ListGroup>
+                        </div>
+                    </Col>
+                    </Row>   
+                    <div className="title-box">
             
+                </div>
+                <div style={{"paddingTop":"50px"}}>
+                <Tdslightbox ></Tdslightbox>
+                </div>
+                
+            </Container>
+            </div>
+                       
             {/*Our Latest News  Section Start*/}
-            <div className="section latestnews grapping" id="blog">
+            <div className="section marketing-section grapping" id="blog">
             <Container>
                 <div className="title-box">
-                <h2>Our Latest  <b>News</b></h2>
-                <p>Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                <h2 className="text-white">آخر الأخبار</h2>
                 </div>
                 <Row>
                 <Col xs="12" sm="12" md="4">

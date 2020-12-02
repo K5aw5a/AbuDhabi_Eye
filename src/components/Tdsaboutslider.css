@@ -1,6 +1,6 @@
 /* About us page csss */
 .about-box{
-    background: var(--bggrey);
+    background: var(--white);
   }
   .progress-bar{
     background-color: var(--orange);
