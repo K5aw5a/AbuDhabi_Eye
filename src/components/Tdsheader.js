@@ -1,7 +1,7 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Container, Nav, NavItem, NavLink } from 'reactstrap';
-import logo from '../images/LOGO-header.png';
-import logob from '../images/LOGO-header.png';
+import logo from '../images/web-logo.png';
+import logob from '../images/web-logo.png';
 import './Tdsheader.css';
 
 class Tdsheader extends React.Component {
