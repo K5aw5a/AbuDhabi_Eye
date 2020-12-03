@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Button, Modal, ModalBody, } from 'reactstrap';
 
 import './Tdsvideomodal.css';
-class Tdsvideomodal extends React.Component {
+class Tdsvideouni1 extends React.Component {
     constructor(props) {
         super(props);
         this.state ={
@@ -20,7 +20,7 @@ class Tdsvideomodal extends React.Component {
     render() {
         return (
             <div>
-                <Button color="secondary" onClick={this.toggle}> <i className="icofont-play-alt-1"></i> Watch Now</Button>
+                <Button color="secondary" onClick={this.toggle}> <i className="icofont-play-alt-1"></i></Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-video">
 
                     <ModalBody>
@@ -35,4 +35,4 @@ class Tdsvideomodal extends React.Component {
     }        
 }
 
-export default Tdsvideomodal;
+export default Tdsvideouni1;

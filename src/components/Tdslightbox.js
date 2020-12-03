@@ -9,18 +9,18 @@ import './Tdslightbox.css';
 
 const images = [
     {
-        src: require("./../images/portfolio-img1.jpg"),
-        title: 'Product Design',
+        src: require("./../images/j1.JPG"),
+        title: 'جزيرة الجبيل',
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img7.jpg"),
-        title: 'Branding',
+        src: require("./../images/j2.JPG"),
+        title: 'جزيرة الجبيل',
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img3.jpg"),
-        title: 'Search Engine Optimization',
+        src: require("./../images/f1.jpg"),
+        title: 'عالم فراري',
         description: 'description'
     },
     {

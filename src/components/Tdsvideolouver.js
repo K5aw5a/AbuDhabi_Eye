@@ -26,7 +26,7 @@ class Tdsvideolouver extends React.Component {
                     <ModalBody>
                         <button className="close" onClick={this.toggle}><i class="icofont-close-line"></i></button>
 
-                        <iframe width="100%" height="520" src="https://drive.google.com/file/d/12Sjx4n4WizrXp8_M8E7OSZWI4FzdbnAa/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="520" src="https://www.youtube.com/embed/Yjcizx1V3WA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </ModalBody>
 
                 </Modal>

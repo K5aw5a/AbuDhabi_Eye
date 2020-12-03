@@ -1,8 +1,11 @@
 
 import React, { useState } from 'react';
 import { Button, Modal, ModalBody, } from 'reactstrap';
+import Tdslightbox from './Tdslightbox';
 
 import './Tdsvideomodal.css';
+
+
 class Tdsvideoferrari extends React.Component {
     constructor(props) {
         super(props);
@@ -26,7 +29,7 @@ class Tdsvideoferrari extends React.Component {
                     <ModalBody>
                         <button className="close" onClick={this.toggle}><i class="icofont-close-line"></i></button>
 
-                        <iframe width="100%" height="520" src="https://www.youtube.com/embed/vlDzYIIOYmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="520" frameborder="0"  allowfullscreen></iframe>
                     </ModalBody>
 
                 </Modal>

@@ -26,6 +26,9 @@ import Tdsvideowarner from './components/Tdsvideowarner';
 import Tdsvideoclymb from './components/Tdsvideoclymb';
 import Tdsvideolouver from './components/Tdsvideolouver';
 import Tdsvideoferrari from './components/Tdsvideoferrari';
+import Tdsvideouni1 from './components/Tdsvideouni1';
+import Tdsvideouni2 from './components/Tdsvideouni2';
+import Tdsvideouni3 from './components/Tdsvideouni3';
 class App extends React.Component{
 
     render() {
@@ -113,7 +116,7 @@ class App extends React.Component{
                     <Col xs="12" sm="6" md="6" lg="3">
                         <div className="text-center coman-box team-box">
                         <div className="team-img">
-                            <img src={require("./images/louver204.jpeg")} alt="" className="img-fluid rounded-circle" />
+                            <img src={require("./images/louver1.png")} alt="" className="img-fluid rounded-circle" />
                         </div>
                         <h4 className="text-white">متحف اللوفر أبوظبي</h4>
                         <p className="text-white">متحف الحضارة والفنون يقع في المنطقة الثقافية في السعديات ،ويعرض الأعمال الفنية من جميع بقاع العالم</p>
@@ -214,31 +217,31 @@ class App extends React.Component{
                 <Row>
                 <Col xs="12" sm="12" md="4">
                     <Card>
-                    <CardImg top width="100%" src={require("./images/blog-new1.jpg")} alt="Card image cap" />
+                    <CardImg top width="100%" src={require("./images/prof.jpg")} alt="Card image cap" />
                     <Card body>
-                        <CardTitle>Dignissimos ducimus qui </CardTitle>
-                        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                        <Button color="primary">Read More</Button>
+                        <CardTitle className="text-right">مقابلة مع البروفيسور نبيل القاضي </CardTitle>
+                        <CardText className="text-right">حوار مع نائب رئيس شؤون الأكاديمية لكلية الخوارزمي </CardText>
+                        <Button color="primary"><Tdsvideouni1></Tdsvideouni1></Button>
                     </Card>
                     </Card>
                 </Col>
                 <Col xs="12" sm="12" md="4">
                     <Card>
-                    <CardImg top width="100%" src={require("./images/blog-new2.jpg")} alt="Card image cap" />
+                    <CardImg top width="100%" src={require("./images/uni.jpg")} alt="Card image cap" />
                     <Card body>
-                        <CardTitle>Dignissimos ducimus qui </CardTitle>
-                        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                        <Button color="primary">Read More</Button>
+                        <CardTitle className="text-right">جولة في كلية الخوارزمي </CardTitle>
+                        <CardText className="text-right">الإجراءات الاحترازية في ظل الظروف الحالية (جائحة كورونا ) </CardText>
+                        <Button color="primary"><Tdsvideouni2></Tdsvideouni2></Button>
                     </Card>
                     </Card>
                 </Col>
                 <Col xs="12" sm="12" md="4">
                     <Card>
-                    <CardImg top width="100%" src={require("./images/blog-new3.jpg")} alt="Card image cap" />
+                    <CardImg top width="100%" src={require("./images/maga.png")} alt="Card image cap" />
                     <Card body>
-                        <CardTitle>Dignissimos ducimus qui</CardTitle>
-                        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                        <Button color="primary">Read More</Button>
+                        <CardTitle className="text-right">مجلة عين أبوظبي</CardTitle>
+                        <CardText className="text-right">إصدار العدد الأول من مجلة عين أبوظبي حيث تجدون كل ماهو جديد عن السياحة  </CardText>
+                        <Button color="primary" ><Tdsvideouni3></Tdsvideouni3></Button>
                     </Card>
                     </Card>
                 </Col>

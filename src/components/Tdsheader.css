@@ -134,7 +134,7 @@ nav{
     nav.navbar .menu-ul:after {
         width: 50px; 
         height: 50px;
-        background: #f6994b;
+        background: #8d211b;
         position: absolute;
         content: "";
         top: -10px;
@@ -144,7 +144,7 @@ nav{
     nav.navbar .menu-ul::before {
         width: 50px;
         height: 50px;
-        background: #f6994b;
+        background: #8d211b;
         position: absolute;
         content: "";
         bottom: -10px;

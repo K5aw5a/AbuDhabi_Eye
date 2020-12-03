@@ -26,7 +26,7 @@ class Tdsvideoclymb extends React.Component {
                     <ModalBody>
                         <button className="close" onClick={this.toggle}><i class="icofont-close-line"></i></button>
 
-                        <iframe width="100%" height="520" src="https://drive.google.com/file/d/1ZNUCCVTkarbe-i0N-9QfpChA0IZvHaNs/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="520" src="https://drive.google.com/file/d/1ZNUCCVTkarbe-i0N-9QfpChA0IZvHaNs/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </ModalBody>
 
                 </Modal>
