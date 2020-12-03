@@ -201,9 +201,6 @@ class App extends React.Component{
                     <div className="title-box">
             
                 </div>
-                <div style={{"paddingTop":"50px"}}>
-                <Tdslightbox ></Tdslightbox>
-                </div>
                 
             </Container>
             </div>

@@ -29,7 +29,7 @@ class Tdsvideoferrari extends React.Component {
                     <ModalBody>
                         <button className="close" onClick={this.toggle}><i class="icofont-close-line"></i></button>
 
-                        <iframe width="100%" height="520" frameborder="0"  allowfullscreen></iframe>
+                        <Tdslightbox></Tdslightbox>
                     </ModalBody>
 
                 </Modal>
