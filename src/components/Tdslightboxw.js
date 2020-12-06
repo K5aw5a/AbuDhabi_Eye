@@ -10,38 +10,32 @@ import './Tdslightbox.css';
 const images = [
     {
         src: require("./../images/j1.JPG"),
-        title: 'جزيرة الجبيل',
         description: 'description'
     },
     {
         src: require("./../images/j2.JPG"),
-        title: 'جزيرة الجبيل',
         description: 'description'
     },
     {
         src: require("./../images/f1.jpg"),
-        title: 'عالم فراري',
         description: 'description'
     },
     {
         src: require("./../images/portfolio-img4.jpg"),
-        title: 'Social Media marketing',
         description: 'description'
     },
     {
         src: require("./../images/portfolio-img5.jpg"),
-        title: 'UI/UXDesign',
         description: 'description'
     },
     {
         src: require("./../images/portfolio-img6.jpg"),
-        title: 'Degital marketing',
         description: 'description'
     }
 
 ];
 
-class Tdslightbox extends React.Component {
+class Tdslightboxw extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -98,4 +92,4 @@ class Tdslightbox extends React.Component {
 
 }
 
-export default Tdslightbox;
+export default Tdslightboxw;

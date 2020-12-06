@@ -23,7 +23,7 @@ class Tdsfooter extends React.Component {
                         <Col>
                             <ListGroup className="footer-menu">
 
-                                <ListGroupItem tag="a" > Khawarizmi International College</ListGroupItem>
+                                <ListGroupItem tag="a" href="https://kic.ac.ae/"> Khawarizmi International College</ListGroupItem>
 
                             </ListGroup>
                         </Col>

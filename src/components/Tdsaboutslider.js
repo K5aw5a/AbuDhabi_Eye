@@ -33,63 +33,15 @@ class Tdsaboutslider extends React.Component {
 
                 <div className="item">
                     <div className="title-box text-left mb-0">
-                        <h2 className="mb-0">Know About Our   <b>Mission</b></h2>
-                        <h4 className="mt-0 mb-2 sub-title">We Are Digital <span>Marketing & Branding</span></h4>
+                        <h2 className="mb-0">وسائل التواصل الاجتماعي والسياحة</h2>
                     </div>
-                    <p>When an unknown printer took a galley of type and scrambled. </p>
-                    <p>Simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
-                    <p>Word in classical literature, discovered the undoubtable source.  "de Finibus Bonorum et Malorum.</p>
-                    <p>Standard chunk of Lorem Ipsum used since the 1500s is reproduced  "de Finibus Bonorum et Malorum" by Cicero.</p>
+                    <p>to be added ...  </p>
+                  
 
                 </div>
 
-                <div className="item">
-                    <div className="title-box text-left mb-0">
-                        <h2 className="mb-0">Why Choose  <b>Us</b></h2>
-                        <h4 className="mt-0 mb-2 sub-title">We Are Digital <span>Marketing & Branding</span></h4>
-                        <p>When an unknown printer took a galley of type and scrambled.</p>
-                    </div>
-                    <div className="why-choose">
-                        <Row noGutters>
-                            <Col xs="6" sm="6" md="4">
-                                <div className="why-box text-center">
-                                    <Icofont icon="icofont-drag2" />
-                                    <h5>Perfect Design</h5>
-                                </div>
-                            </Col>
-                            <Col xs="6" sm="6" md="4">
-                                <div className="why-box text-center">
-                                    <Icofont icon="icofont-live-support" />
-                                    <h5>Perfect Design</h5>
-                                </div>
-                            </Col>
-                            <Col xs="6" sm="6" md="4">
-                                <div className="why-box text-center">
-                                    <Icofont icon="icofont-support" />
-                                    <h5>Friendly Support</h5>
-                                </div>
-                            </Col>
-                            <Col xs="6" sm="6" md="4">
-                                <div className="why-box text-center">
-                                    <Icofont icon="icofont-unique-idea" />
-                                    <h5>Unique Design</h5>
-                                </div>
-                            </Col>
-                            <Col xs="6" sm="6" md="4">
-                                <div className="why-box text-center">
-                                    <Icofont icon="icofont-team" />
-                                    <h5>Expert Team</h5>
-                                </div>
-                            </Col>
-                            <Col xs="6" sm="6" md="4">
-                                <div className="why-box text-center">
-                                    <Icofont icon="icofont-search-user" />
-                                    <h5>SEO & Marketing</h5>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
-                </div>
+               
+               
 
             </OwlCarousel>
 

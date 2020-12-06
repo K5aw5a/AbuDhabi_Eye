@@ -1,13 +1,12 @@
 
 import React, { useState } from 'react';
 import { Button, Modal, ModalBody, } from 'reactstrap';
-import Tdslightboxf from './Tdslightboxf';
-
+import Tdslightboxb from './Tdslightboxb';
 
 import './Tdsvideomodal.css';
 
 
-class Tdsvideoferrari extends React.Component {
+class Tdsvideobateen extends React.Component {
     constructor(props) {
         super(props);
         this.state ={
@@ -30,7 +29,7 @@ class Tdsvideoferrari extends React.Component {
                     <ModalBody>
                         <button className="close" onClick={this.toggle}><i class="icofont-close-line"></i></button>
 
-                        <Tdslightboxf></Tdslightboxf>
+                        <Tdslightboxb></Tdslightboxb>
                     </ModalBody>
 
                 </Modal>
@@ -39,4 +38,4 @@ class Tdsvideoferrari extends React.Component {
     }        
 }
 
-export default Tdsvideoferrari;
+export default Tdsvideobateen;
