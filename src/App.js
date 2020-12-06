@@ -73,8 +73,7 @@ class App extends React.Component{
                 <Row>
                 <Col xs="12" sm="12" md="12" lg="6">
                     <div className="about-img">
-    
-                    <img src={require("./images/aboutus.jpg")} alt="" className="img-fluid" />
+                    <iframe width="540" height="342" src="https://www.youtube.com/embed/onF-wqtZlIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </Col>
                 <Col xs="12" sm="12" md="12" lg="6">

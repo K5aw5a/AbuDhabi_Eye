@@ -9,11 +9,11 @@ import './Tdslightbox.css';
 
 const images = [
     {
-        src: require("./../images/j1.JPG"),
+        src: require("./../images/f2.JPG"),
         description: 'description'
     },
     {
-        src: require("./../images/j2.JPG"),
+        src: require("./../images/f3.jpg"),
         description: 'description'
     },
     {
@@ -21,15 +21,15 @@ const images = [
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img4.jpg"),
+        src: require("./../images/f4.JPG"),
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img5.jpg"),
+        src: require("./../images/f5.jpg"),
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img6.jpg"),
+        src: require("./../images/f6.jpg"),
         description: 'description'
     }
 

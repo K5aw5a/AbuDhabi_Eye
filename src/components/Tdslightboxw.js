@@ -9,27 +9,27 @@ import './Tdslightbox.css';
 
 const images = [
     {
-        src: require("./../images/j1.JPG"),
+        src: require("./../images/h1.JPG"),
         description: 'description'
     },
     {
-        src: require("./../images/j2.JPG"),
+        src: require("./../images/h2.JPG"),
         description: 'description'
     },
     {
-        src: require("./../images/f1.jpg"),
+        src: require("./../images/h3.jpg"),
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img4.jpg"),
+        src: require("./../images/h4.jpg"),
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img5.jpg"),
+        src: require("./../images/h5.jpg"),
         description: 'description'
     },
     {
-        src: require("./../images/portfolio-img6.jpg"),
+        src: require("./../images/h6.jpg"),
         description: 'description'
     }
 
