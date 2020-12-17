@@ -35,7 +35,7 @@ class Tdsaboutslider extends React.Component {
                     <div className="title-box text-left mb-0">
                         <h2 className="mb-0">وسائل التواصل الاجتماعي والسياحة</h2>
                     </div>
-                    <p>to be added ...  </p>
+                    <p>  فيديو كارتون قصير يشرح كيف أصبح من السهل الآن اختيار المكان الذي نريد الذهاب إليه والقيام بجولتنا فيه مع وسائل التواصل الاجتماعي </p>
                   
 
                 </div>
