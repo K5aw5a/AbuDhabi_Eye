@@ -32,10 +32,11 @@ class Tdsaboutslider extends React.Component {
 
 
                 <div className="item">
-                    <div className="title-box text-left mb-0">
+                    <div className="title-box text-right mb-0">
                         <h2 className="mb-0">وسائل التواصل الاجتماعي والسياحة</h2>
                     </div>
-                    <p>  فيديو كارتون قصير يشرح كيف أصبح من السهل الآن اختيار المكان الذي نريد الذهاب إليه والقيام بجولتنا فيه مع وسائل التواصل الاجتماعي </p>
+                    <p></p>
+                    <p className="text-right">   فيديو كارتون قصير يشرح كيف أصبح من السهل الآن اختيار المكان الذي نريد الذهاب إليه والقيام بجولتنا فيه مع وسائل التواصل الاجتماعي </p>
                   
 
                 </div>
